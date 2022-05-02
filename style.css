@@ -1,0 +1,64 @@
+* {
+  font-family: Roboto, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+header {
+  padding: 1.5em 5px;
+}
+ .nav{
+  margin-left: 1em;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+.active {
+  color: orange;
+}
+.contact {
+  display: inline-flex;
+  float: right;
+  margin-right: 5em;
+}
+li{
+  margin: 0px 20px;
+}
+main {
+  position: relative;
+  padding: 5em 5em 5em 5em;
+}
+hero {
+  line-height: 2.5;
+  padding-top: 8%;
+  position: absolute;
+}
+a:link {
+  text-decoration: none;
+  color: orange;
+}
+a:visited {
+  text-decoration: none;
+  color: orange;
+}
+.man {
+  width: 35vw;
+  float: right;
+}
+.question{
+  font-size: 170%;
+}
+.what {
+  display: inline-block;
+  padding: 8em 2em 0 2em;
+  justify-content: center;
+  text-align: center;
+  line-height: 2.5;
+}
+#learn{
+  display: block;
+  margin: auto;
+  padding-top: 2em
+}
